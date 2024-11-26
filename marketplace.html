@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="marketplace.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="search-box">
+                <input type="text" placeholder="Search Marketplace" id="search-bar">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Browse all</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Inbox</a></li>
+                <li><a href="#">Buying</a></li>
+                <li><a href="#">Selling</a></li>
+            </ul>
+            <button class="new-listing">Create new listing</button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="location">Location: <a href="#">Kakamega</a> - Within 65 km</div>
+            <h2>Today's Picks</h2>
+            <div class="listings-container" id="listings-container">
+                <!-- Product Listings go here -->
+            </div>
+        </main>
+    </div>
+
+    <script src="marketplace.js"></script>
+</body>
+</html>

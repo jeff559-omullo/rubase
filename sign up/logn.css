@@ -1,0 +1,29 @@
+*body{
+    background-color: salmon;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+
+}
+body{
+  background-color: ghostwhite;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+div{
+  margin: 50px;
+  border-radius: 100vh;
+  padding: 20px;
+  align-self: center;
+
+
+}
+:hover{
+  background-color: gold blue;
+  
+  cursor: pointer;
+  border-radius: 5%;
+  
+
+}

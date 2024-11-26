@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav {
+    background-color: #1A73E8;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+h1, h2 {
+    color: #1A73E8;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: bottom;
+}
+
+footer a {
+    color: #1A73E8;
+    text-decoration: none;
+}
+
+/* Hostels Section */
+#hostels input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.hostel-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.hostel-listings div {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Marketplace Section */
+.market-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Fun Section */
+#liveStreamSection {
+    margin-top: 20px;
+}
+
+#liveStream {
+    width: 100%;
+    height: auto;
+}
+
+#goLiveButton {
+    padding: 10px 20px;
+    background-color: #1A73E8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#goLiveButton:hover {
+    background-color: #1558b6;
+}

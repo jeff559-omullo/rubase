@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUBASE HOSTEL</title>
+    <link rel="stylesheet" href="hostel.css">
+</head>
+<body>
+    <header>
+        <div class="logo">RUBASE HOSTEL</div>
+        <input type="text" id="search" placeholder="Search for hostels..." oninput="filterHostels()">
+    </header>
+    <main>
+        <div class="hostel-container" id="hostelContainer">
+            
+</div>
+
+            <!-- Hostel cards will be dynamically inserted here -->
+        </div>
+    </main><div id="bookingModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Book Your Stay</h2>
+        <form id="bookingForm" onsubmit="processBooking(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="hostelName">Hostel:</label>
+            <input type="text" id="hostelName" readonly>
+            <label for="dates">Dates:</label>
+            <input type="text" id="dates" placeholder="e.g., 2024-10-01 to 2024-10-07" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+
+    <script src="hostel.js"></script>
+</body>
+</html>
